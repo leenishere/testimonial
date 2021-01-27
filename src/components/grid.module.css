@@ -1,0 +1,77 @@
+.name_light{
+    color: hsl(0, 0%, 100%); 
+}
+
+.title_light{
+    color: hsl(0, 0%, 50%); 
+}
+
+.name_dark{
+    color: rgba(0, 0, 0, 1);
+}
+
+.title_dark{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.pos_left{
+    justify-content: flex-start;
+}
+
+.pos_right{
+    justify-content: flex-end;
+}
+
+
+[data-grid="danial"]{
+    grid-area: first;
+}
+
+[data-grid="jonathan"]{
+    grid-area:second;
+}
+
+[data-grid="jeanette"]{
+    grid-area:fourth;
+}
+
+[data-grid="patrick"]{
+   
+    grid-area:fifth;
+}
+
+[data-grid="kira"]{   
+    grid-area:third;
+}
+
+/* Grid Backgrounds */
+.grid_background{
+    padding: 40px;
+    margin: 20px;
+    box-shadow: 8px 8px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+.grid_background__danial{
+    background: hsl(263, 55%, 52%);
+    
+}
+
+.grid_background__jonathan{
+    background: hsl(217, 19%, 35%);
+}
+
+
+.grid_background{
+    background-color:  hsl(0, 0%, 100%);
+}
+
+.grid_background__patrick{
+    background-color: hsl(219, 29%, 14%);
+}
