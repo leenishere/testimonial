@@ -19,6 +19,19 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+
+
+main{
+ 
+    display: grid;
+   
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'first first second third'
+    'fourth fifth fifth third';
+}
+
 article,
 aside,
 details,
@@ -26,7 +39,6 @@ figcaption,
 figure,
 footer,
 header,
-main,
 menu,
 nav,
 section,
