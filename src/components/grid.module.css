@@ -1,18 +1,61 @@
+/* Light */
 .name_light{
     color: hsl(0, 0%, 100%); 
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0px;
 }
 
 .title_light{
-    color: hsl(0, 0%, 50%); 
+    color: hsl(0, 0%, 70%); 
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 12px;
 }
 
+.testimony_light{
+    color: hsl(0, 0%, 100%); 
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.quote_light{
+    color: hsl(0, 0%, 70%); 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 0px;
+}
+
+/* Dark */
 .name_dark{
     color: rgba(0, 0, 0, 1);
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0px;
 }
 
 .title_dark{
     color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 12px;
 }
+
+.testimony_dark{
+    color: rgba(0, 0, 0, 1);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.quote_dark{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 0px;
+}
+
 
 
 .wrapper{
@@ -28,50 +71,49 @@
     justify-content: flex-end;
 }
 
+.profileimage{
+    margin-bottom: 0px;
+    border-radius: 32px;
+    height: 70%;
+    border: 2px solid hsl(263, 55%, 80%);
+}
+.grid_background{
+    padding: 3em;
+    margin: 1em;
+    border-radius: 12px;
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+}
 
 [data-grid="danial"]{
     grid-area: first;
+    background: hsl(263, 55%, 52%);
+
+    background-image: url(../images/icons/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    background-position-y: top;
 }
 
 [data-grid="jonathan"]{
     grid-area:second;
+    background: hsl(217, 19%, 35%);
 }
 
 [data-grid="jeanette"]{
     grid-area:fourth;
+    background-color:  hsl(0, 0%, 100%);
 }
 
 [data-grid="patrick"]{
-   
     grid-area:fifth;
+    background-color: hsl(219, 29%, 14%);
 }
 
 [data-grid="kira"]{   
     grid-area:third;
-}
-
-/* Grid Backgrounds */
-.grid_background{
-    padding: 40px;
-    margin: 20px;
-    box-shadow: 8px 8px rgba(0,0,0,0.1);
-    border-radius: 4px;
-}
-
-.grid_background__danial{
-    background: hsl(263, 55%, 52%);
-    
-}
-
-.grid_background__jonathan{
-    background: hsl(217, 19%, 35%);
-}
-
-
-.grid_background{
     background-color:  hsl(0, 0%, 100%);
 }
 
-.grid_background__patrick{
-    background-color: hsl(219, 29%, 14%);
-}

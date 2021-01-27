@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Grid from "../components/grid"
-import "../components/global.css"
 
 
 const IndexPage = () => (
