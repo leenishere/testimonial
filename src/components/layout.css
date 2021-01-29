@@ -36,6 +36,13 @@ main{
     margin: 4rem;
 }
 
+@media (max-width: 1023px){
+  main{
+    display: block;
+    margin: 1rem;
+  }
+}
+
 article,
 aside,
 details,
